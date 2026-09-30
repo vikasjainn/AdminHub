@@ -23,7 +23,11 @@ export default function Sidebar() {
       >
         <div className="flex h-full flex-col">
           <div className="flex h-[68px] items-center gap-2 border-b border-slate-800 px-5 text-white">
-            <div className="grid h-8 w-8 place-items-center rounded-lg bg-indigo-500 text-sm font-bold">O</div>
+            <img
+              src="/favicon.svg"
+              alt="AdminHub"
+              className="h-8 w-8 rounded-lg"
+            />
             <span className="text-[16px] font-bold">AdminHub</span>
             <button
               type="button"
@@ -40,9 +44,8 @@ export default function Sidebar() {
                 key={href}
                 href={href}
                 onClick={close}
-                className={`flex h-10 items-center gap-3 rounded-md px-3 text-[12px] font-medium transition ${
-                  isNavActive(href, pathname) ? 'bg-slate-700 text-white shadow-sm' : 'text-slate-300 hover:bg-slate-800 hover:text-white'
-                }`}
+                className={`flex h-10 items-center gap-3 rounded-md px-3 text-[12px] font-medium transition ${isNavActive(href, pathname) ? 'bg-slate-700 text-white shadow-sm' : 'text-slate-300 hover:bg-slate-800 hover:text-white'
+                  }`}
               >
                 <Icon size={16} />
                 {label}
