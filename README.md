@@ -65,6 +65,3 @@ Main endpoints:
 - `/users`
 - `/products`
 
-## Project Structure
-
-```text
