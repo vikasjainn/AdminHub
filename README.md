@@ -68,11 +68,3 @@ Main endpoints:
 ## Project Structure
 
 ```text
-src/
-├── app/           # Pages and routes
-├── components/    # Reusable UI components
-├── hooks/         # Query and mutation hooks
-├── lib/           # API, mapping and utility logic
-├── providers/     # Application providers
-├── store/         # Redux Toolkit store and slices
-└── types/         # TypeScript types
